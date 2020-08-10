@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- an upper navigation bar -->
     <v-app-bar
       :collapse="!collapseOnScroll"
       :collapse-on-scroll="collapseOnScroll"
@@ -27,6 +28,7 @@
       </v-toolbar-title>
     </v-app-bar>
 
+    <!-- a side drawer -->
     <v-navigation-drawer v-model="drawer" absolute temporary color="#d8ebf1" :width="320">
       <v-list>
         <v-list-item>
@@ -41,19 +43,20 @@
         </v-list-item>
       </v-list>
 
-      <v-divider class="ml-3 mr-3 lightPurple"></v-divider>
+      <v-divider class="ml-3 mr-3 lightPurple" />
 
+      <!-- a contacts list -->
       <v-list>
-        <v-list-item v-for="item in info" :key="item.title" class="mb-n4">
+        <v-list-item v-for="contact in contacts" :key="contact.title" class="mb-n4">
           <v-list-item-icon>
-            <v-icon class="pa-2 mr-n4 lightPurple rounded-circle" color="white">{{ item.icon }}</v-icon>
+            <v-icon class="pa-2 mr-n4 lightPurple rounded-circle" color="white">{{ contact.icon }}</v-icon>
           </v-list-item-icon>
-
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title>{{ contact.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
+        <!-- socialmedia contacts -->
         <v-list-item
           v-for="media in socialMedias"
           :key="media.title"
@@ -64,7 +67,6 @@
           <v-list-item-icon>
             <v-icon class="pa-2 mr-n4 lightPurple rounded-circle" color="white">{{ media.icon }}</v-icon>
           </v-list-item-icon>
-
           <v-list-item-content>
             <v-list-item-title>{{ media.title }}</v-list-item-title>
           </v-list-item-content>
@@ -79,7 +81,6 @@ export default {
   data: () => ({
     collapseOnScroll: true,
     drawer: false,
-    isCollapsed: false,
     socialMedias: [
       {
         icon: "mdi-linkedin",
@@ -92,7 +93,7 @@ export default {
         title: "GitHub",
       },
     ],
-    info: [
+    contacts: [
       {
         title: "saijalatvakangas@gmail.com",
         icon: "mdi-email",
