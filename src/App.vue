@@ -1,22 +1,20 @@
 <template>
   <!-- App.vue -->
-  <v-app>
+  <v-app id="startView" class="application">
     <NavBar />
-    <v-sheet
-      id="scrolling-techniques-6"
-      class="overflow-y-auto"
-      max-height="600"
-    >
-      <v-container style="height: 1000px;"></v-container>
-    </v-sheet>
+    <v-main class="blue-grey lighten-4">
+      <v-container>
+        <!-- welcome card -->
+        <section >
+          <Welcome />
+        </section>
+
+        <!-- introduction card -->
+        <section id="introduction">
+          <Welcome />
+        </section>
 
 
-    <!-- Sizes your content based upon application components -->
-    <v-main>
-      <!-- Provides the application the proper gutter -->
-      <v-container fluid>
-        <!-- If using vue-router -->
-        <!-- <router-view></router-view> -->
       </v-container>
     </v-main>
 
@@ -27,13 +25,15 @@
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue';
+import NavBar from "./components/NavBar";
+import Welcome from "./components/Welcome";
 
 export default {
   name: "App",
 
   components: {
     NavBar,
+    Welcome,
   },
 
   data: () => ({
@@ -41,3 +41,11 @@ export default {
   }),
 };
 </script>
+
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.application {
+  font-family: 'Nunito';
+}
+</style>
