@@ -26,6 +26,9 @@
           <WorkExperience />
         </section>
 
+        <section id="projects">
+          <Projects />
+        </section>
 
       </v-container>
     </v-main>
@@ -43,6 +46,7 @@ import Introduction from "./components/Introduction";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
+import Projects from "./components/Projects";
 
 export default {
   name: "App",
@@ -54,6 +58,7 @@ export default {
     Skills,
     Education,
     WorkExperience,
+    Projects,
   },
 
   data: () => ({

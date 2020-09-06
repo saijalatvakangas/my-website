@@ -37,7 +37,7 @@ export default {
         name: "Työkokemus",
       },
       {
-        target: "#introduction",
+        target: "#projects",
         name: "Projektit",
       },
     ],
