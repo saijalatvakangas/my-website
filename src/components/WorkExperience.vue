@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mt-16 py-16 px-4" min-height="80vh">
+  <v-card class="mt-16 py-16 px-4">
     <v-card-title class="display-1 d-flex justify-center">Työkokemus</v-card-title>
     <v-timeline :dense="$vuetify.breakpoint.smAndDown">
       <v-timeline-item v-for="(education, i) in educations" :key="i" color="pink" large>

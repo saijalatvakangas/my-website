@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mt-16 py-16" min-height="80vh">
+  <v-card class="mt-16 py-16">
     <v-card-title class="display-1 d-flex justify-center">Osaaminen</v-card-title>
     <v-row no-gutters>
       <v-col v-for="(skill, i) in skills" :key="i" cols="12" md="4" sm="6">
