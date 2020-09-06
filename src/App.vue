@@ -11,7 +11,11 @@
 
         <!-- introduction card -->
         <section id="introduction">
-          <Welcome />
+          <Introduction />
+        </section>
+
+        <section id="skills">
+          <Skills />
         </section>
 
 
@@ -27,6 +31,8 @@
 <script>
 import NavBar from "./components/NavBar";
 import Welcome from "./components/Welcome";
+import Introduction from "./components/Introduction";
+import Skills from "./components/Skills";
 
 export default {
   name: "App",
@@ -34,6 +40,8 @@ export default {
   components: {
     NavBar,
     Welcome,
+    Introduction,
+    Skills,
   },
 
   data: () => ({
