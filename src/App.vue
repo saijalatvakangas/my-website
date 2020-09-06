@@ -18,6 +18,10 @@
           <Skills />
         </section>
 
+        <section id="education">
+          <Education />
+        </section>
+
 
       </v-container>
     </v-main>
@@ -33,6 +37,7 @@ import NavBar from "./components/NavBar";
 import Welcome from "./components/Welcome";
 import Introduction from "./components/Introduction";
 import Skills from "./components/Skills";
+import Education from "./components/Education";
 
 export default {
   name: "App",
@@ -42,6 +47,7 @@ export default {
     Welcome,
     Introduction,
     Skills,
+    Education,
   },
 
   data: () => ({

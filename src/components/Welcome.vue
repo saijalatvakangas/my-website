@@ -29,7 +29,7 @@ export default {
         name: "Osaaminen",
       },
       {
-        target: "#introduction",
+        target: "#education",
         name: "Koulutus",
       },
       {
