@@ -33,7 +33,7 @@ export default {
         name: "Koulutus",
       },
       {
-        target: "#introduction",
+        target: "#workExperience",
         name: "Työkokemus",
       },
       {
