@@ -5,7 +5,7 @@
     <v-main>
       <v-container>
         <!-- welcome card -->
-        <section >
+        <section>
           <Welcome />
         </section>
 

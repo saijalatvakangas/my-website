@@ -1,5 +1,5 @@
 <template>
-  <v-card class="d-flex flex-column justify-start justify-sm-center mt-16 py-16" min-height="80vh">
+  <v-card class="d-flex flex-column justify-start justify-sm-center mt-16 py-16" min-height="86vh">
     <div class="centering">
       <v-img src="../assets/sl-logo2.png" max-height="100" max-width="100" />
     </div>
