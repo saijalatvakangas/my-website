@@ -3,7 +3,7 @@
     <v-card-title class="display-1 d-flex justify-center">Projektit</v-card-title>
     <v-row no-gutters>
       <v-col v-for="(project, i) in projects" :key="i" cols="12" md="6" sm="12">
-        <v-card class="ma-4">
+        <v-card class="elevation-4 ma-4">
           <!-- image is a link to project if a status is ready -->
           <a v-if="project.ready" :href="project.website">
             <v-img :src="project.image" :aspect-ratio="16/9">
@@ -26,7 +26,12 @@
 
           <!-- buttons to projects -->
           <v-card-actions>
-            <div class="d-flex justify-start flex-wrap">
+            <div v-if="project.restricted">
+              <v-btn text :href="project.website">
+                <v-icon class="ma-2">mdi-information</v-icon>Tietoja
+              </v-btn>
+            </div>
+            <div v-else class="d-flex justify-start flex-wrap">
               <v-btn v-if="project.ready" text :href="project.website">
                 <v-icon class="ma-2">mdi-home</v-icon>Kokeile
               </v-btn>
@@ -52,30 +57,44 @@ export default {
         headline: "Omat kotisivut",
         description:
           "Omat kotisivut on tehty omien taitojen ja projektien visuaalista esittämistä varten. Erityisesti tavoitteena on ollut luoda sivut, joita voi hyödyntää työnhaussa.",
-        keywords: ["Vue.js", "Vuetify"],
+        keywords: ["Vue.js", "Vuetify", "Yksilötyö"],
         website: "https://www.google.com/", //TODO:päivitä
         code: "https://github.com/saijalatvakangas/my-website",
         ready: true,
+        restricted: false,
+      },
+      {
+        image: require("../assets/protomyy.png"),
+        headline: "Protomyy-projekti (NDA)",
+        description:
+          "Projektissa kehitettiin hoivarobottiin prototyypit puheentunnistuksesta ja Android-tabletin kautta käytettävästä vanhuksen käyttöliittymästä.",
+        keywords: ["React Native", "C++", "Python", "Ryhmätyö"],
+        website: "http://www.mit.jyu.fi/palvelut/sovellusprojektit/protomyy/",
+        code: "",
+        ready: true,
+        restricted: true,
       },
       {
         image: require("../assets/sl-logo2.png"),
         headline: "SNSReplica",
         description:
           "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.",
-        keywords: ["Laravel", "Vue.js"],
+        keywords: ["Laravel", "Vue.js", "Yksilötyö"],
         website: "",
         code: "https://github.com/saijalatvakangas/snsReplica",
         ready: false,
+        restricted: false,
       },
       {
         image: "https://cdn.vuetifyjs.com/images/weather/part-cloud-48px.png",
         headline: "Tulossa",
         description:
           "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.",
-        keywords: ["Laravel", "Vue.js"],
+        keywords: ["Laravel", "Vue.js", "Yksilötyö"],
         website: "",
         code: "https://github.com/saijalatvakangas/snsReplica",
         ready: false,
+        restricted: false,
       },
     ],
   }),
