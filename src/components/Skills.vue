@@ -6,7 +6,6 @@
         <v-card elevation="0" class="ma-2">
           <v-card-title>
             <v-icon large class="py-3" :color=skill.color>{{skill.logo}}</v-icon>
-
           </v-card-title>
 
           <v-card-subtitle class="headline font-weight-medium black--text">

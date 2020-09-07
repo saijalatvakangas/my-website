@@ -2,7 +2,7 @@
   <!-- App.vue -->
   <v-app id="startView" class="application">
     <NavBar />
-    <v-main>
+    <v-main class="grey lighten-4">
       <v-container>
         <!-- welcome card -->
         <section>
