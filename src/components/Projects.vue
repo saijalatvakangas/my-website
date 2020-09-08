@@ -3,7 +3,7 @@
     <v-card-title class="display-1 d-flex justify-center">Projektit</v-card-title>
     <v-row no-gutters>
       <v-col v-for="(project, i) in projects" :key="i" cols="12" md="6" sm="12">
-        <v-card class="elevation-4 ma-4">
+        <v-card class="elevation-16 ma-4">
           <!-- image is a link to project if a status is ready -->
           <a v-if="project.ready" :href="project.website">
             <v-img :src="project.image" :aspect-ratio="16/9">
@@ -75,24 +75,24 @@ export default {
         restricted: true,
       },
       {
-        image: require("../assets/sl-logo2.png"),
+        image: require("../assets/sns-replica.png"),
         headline: "SNSReplica",
         description:
           "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.",
-        keywords: ["Laravel", "Vue.js", "Yksilötyö"],
+        keywords: ["Laravel", "Yksilötyö"],
         website: "",
         code: "https://github.com/saijalatvakangas/snsReplica",
-        ready: false,
+        ready: true,
         restricted: false,
       },
       {
-        image: "https://cdn.vuetifyjs.com/images/weather/part-cloud-48px.png",
-        headline: "Tulossa",
+        image: require("../assets/math-me-up.png"),
+        headline: "Math Me Up!",
         description:
           "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.",
-        keywords: ["Laravel", "Vue.js", "Yksilötyö"],
+        keywords: ["Laravel", "Vue.js", "Parityö"],
         website: "",
-        code: "https://github.com/saijalatvakangas/snsReplica",
+        code: "https://github.com/saijalatvakangas/mathMeUp",
         ready: false,
         restricted: false,
       },
