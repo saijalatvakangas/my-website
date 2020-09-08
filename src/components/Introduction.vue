@@ -54,7 +54,7 @@ export default {
   data: () => ({
     introduction: {
       title: "Nimeni on Saija",
-      subtitle: "<Olen gradua vaille valmis maisteri Jyväskylän yliopistosta. />",
+      subtitle: "<Opiskelen tietotekniikkaa ja olen gradua vaille valmis maisteri Jyväskylän yliopistosta. />",
     },
     abilities: [
       {
@@ -62,7 +62,7 @@ export default {
         icon: "fas fa-laptop-code",
         color: "blue",
         description:
-          "Pääaineeni on tietotekniikka ja vahvin osa-alueeni front end, mutta tavoitteena on hioa itseäni full stack -kehittäjäksi.",
+          "Vahvin osa-alueeni front end, mutta tavoitteena on hioa itseäni full stack -kehittäjäksi.",
       },
       {
         title: "Vahvuuteni",
