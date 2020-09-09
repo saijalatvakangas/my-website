@@ -1,15 +1,12 @@
 <template>
-  <!-- App.vue -->
   <v-app id="startView" class="application">
     <NavBar />
     <v-main class="grey lighten-4">
       <v-container>
-        <!-- welcome card -->
         <section>
           <Welcome />
         </section>
 
-        <!-- introduction card -->
         <section id="introduction">
           <Introduction />
         </section>
@@ -29,13 +26,8 @@
         <section id="projects">
           <Projects />
         </section>
-
       </v-container>
     </v-main>
-
-    <v-footer app>
-      <!-- -->
-    </v-footer>
   </v-app>
 </template>
 
@@ -66,11 +58,3 @@ export default {
   }),
 };
 </script>
-
-<style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
-.application {
-  font-family: 'Nunito';
-}
-</style>

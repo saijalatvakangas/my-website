@@ -13,16 +13,19 @@
           <span class="font-weight-bold">{{ education.time }}</span>
         </template>
         <v-card class="elevation-4">
-          <v-card-title class="headline grey darken-4 white--text">{{ education.headline }}</v-card-title>
+          <v-card-title
+            class="headline grey darken-4 white--text text-break"
+          >{{ education.headline }}</v-card-title>
           <v-card-subtitle
             v-if="$vuetify.breakpoint.mdAndUp"
             class="grey darken-4 white--text"
           >{{ education.subtitle }}</v-card-subtitle>
-          <v-card-subtitle v-else class="grey darken-4 white--text">{{ education.subtitle }}, {{ education.time }}</v-card-subtitle>
-
+          <v-card-subtitle
+            v-else
+            class="grey darken-4 white--text"
+          >{{ education.subtitle }}, {{ education.time }}</v-card-subtitle>
           <v-divider class="pb-1 cyan darken-2" />
-
-          <v-card-text>{{ education.description }}</v-card-text>
+          <v-card-text class="font-weight-medium">{{ education.description }}</v-card-text>
         </v-card>
       </v-timeline-item>
     </v-timeline>
