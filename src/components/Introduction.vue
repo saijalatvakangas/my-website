@@ -56,7 +56,7 @@ export default {
         icon: "fas fa-laptop-code",
         color: "blue",
         description:
-          "Vahvin osa-alueeni front end, mutta tavoitteena on hioa itseäni full stack -kehittäjäksi.",
+          "Vahvin osa-alueeni on front end, mutta tavoitteena on hioa itseäni full stack -kehittäjäksi.",
       },
       {
         title: "Vahvuuteni",

@@ -14,7 +14,7 @@
         </template>
         <v-card class="elevation-4">
           <v-card-title
-            class="headline grey darken-4 white--text text-break"
+            class="text-h6 text-sm-h5 grey darken-4 white--text text-break"
           >{{ education.headline }}</v-card-title>
           <v-card-subtitle
             v-if="$vuetify.breakpoint.mdAndUp"

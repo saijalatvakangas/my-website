@@ -53,7 +53,7 @@ export default {
         description:
           "Omat kotisivut on tehty omien taitojen ja projektien visuaalista esittämistä varten. Erityisesti tavoitteena on ollut luoda sivut, joita voi hyödyntää työnhaussa.",
         keywords: ["Vue.js", "Vuetify", "Yksilötyö"],
-        website: "https://www.google.com/", //TODO:päivitä
+        website: "#startView",
         code: "https://github.com/saijalatvakangas/my-website",
         ready: true,
         restricted: false,

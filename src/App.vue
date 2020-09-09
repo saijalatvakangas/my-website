@@ -1,5 +1,5 @@
 <template>
-  <v-app id="startView" class="application">
+  <v-app id="startView">
     <NavBar />
     <v-main class="grey lighten-4">
       <v-container>
