@@ -23,7 +23,7 @@
       <v-col cols="12" md="4" sm="11">
         <v-card max-width="310" min-width="300">
           <v-avatar size="270" class="ma-4">
-            <img src="../assets/saija2.png" alt="saija" class="rounded-circle"/>
+            <img src="../assets/saija.png" alt="saija" class="rounded-circle"/>
           </v-avatar>
           <v-card-title class="headline">{{ information.name }}</v-card-title>
           <v-card-subtitle class="body-2">{{ information.title }}</v-card-subtitle>

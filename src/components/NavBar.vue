@@ -8,7 +8,7 @@
   >
     <!-- a logo -->
     <v-btn color="transparent" icon class="mx-2" @click="$vuetify.goTo('#startView')">
-      <v-img src="../assets/sl-logo1.png" max-height="45" max-width="45" class="mx-2" />
+      <v-img src="../assets/logo-white.png" max-height="45" max-width="45" class="mx-2" />
     </v-btn>
 
     <v-spacer />
