@@ -12,7 +12,7 @@
           </a>
           <!-- otherwise no links and an unfinished mark is added -->
           <v-img v-else :src="project.image" :aspect-ratio="16/9">
-            <v-badge color="red" content="Kesken" offset-x="-2" offset-y="5"></v-badge>
+            <v-badge color="red" content="Kehityksessä" offset-x="-2" offset-y="5"></v-badge>
           </v-img>
           <!-- project information -->
           <v-card-title class="headline">{{project.headline}}</v-card-title>
@@ -70,6 +70,17 @@ export default {
         restricted: true,
       },
       {
+        image: require("../assets/math-me-up.png"),
+        headline: "Math Me Up!",
+        description:
+          "Laskutaitoon pohjautuva peli, jossa tulee vastata kysymyksiin oikein mahdollisimman nopeasti. Tavoitteena on tutustua Laraveliin ja backendiin syvemmin.",
+        keywords: ["Laravel", "Vue.js", "PHPUnit", "Parityö"],
+        website: "",
+        code: "https://github.com/saijalatvakangas/mathMeUp",
+        ready: false,
+        restricted: false,
+      },
+      {
         image: require("../assets/sns-replica.png"),
         headline: "SNSReplica",
         description:
@@ -77,17 +88,6 @@ export default {
         keywords: ["Laravel", "Yksilötyö"],
         website: "",
         code: "https://github.com/saijalatvakangas/snsReplica",
-        ready: true,
-        restricted: false,
-      },
-      {
-        image: require("../assets/math-me-up.png"),
-        headline: "Math Me Up!",
-        description:
-          "Laskutaitoon pohjautuva peli, jossa tulee vastata kysymyksiin oikein mahdollisimman nopeasti. Tavoitteena tutustua Laraveliin ja backendiin syvemmin.",
-        keywords: ["Laravel", "Vue.js", "Parityö"],
-        website: "",
-        code: "https://github.com/saijalatvakangas/mathMeUp",
         ready: false,
         restricted: false,
       },
