@@ -48,6 +48,17 @@ export default {
   data: () => ({
     projects: [
       {
+        image: require("../assets/meme-generator.png"),
+        headline: "Meme Generator",
+        description:
+          "Meemi-kuvien tekemiseen kehitetty nettisivu. Tavoitteena on ollut kertailla omia React-taitoja Youtube-tutoriaalin avulla. ",
+        keywords: ["React", "Javascript", "Yksilötyö"],
+        website: "https://make-memes.herokuapp.com/",
+        code: "https://github.com/saijalatvakangas/meme-generator",
+        ready: true,
+        restricted: false,
+      },
+      {
         image: require("../assets/my-website.png"),
         headline: "Omat kotisivut",
         description:

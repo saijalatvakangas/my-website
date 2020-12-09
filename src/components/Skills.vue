@@ -56,17 +56,17 @@ export default {
         logo: "fab fa-react",
         headline: "React",
         color: "#40C4FF",
-        rating: 2,
+        rating: 3,
         description:
-          "Reactista minulla on perusteet ja olen käyttänyt ohjelmointikieltä yliopiston kurssilla ja projekteissa sovelluksien kehittämiseen.",
+          "Reactista minulla on perusteet ja olen käyttänyt ohjelmointikieltä yliopiston kurssilla ja projekteissa sovelluksien kehittämiseen. Vapaa-ajalla olen kehittänyt muutaman sovelluksen.",
       },
       {
         logo: "fab fa-java",
         headline: "Java",
         color: "#F44336",
-        rating: 2,
+        rating: 3,
         description:
-          "Javasta minulla on perusteet. Ohjelmointikurssilla olen kehittänyt frisbeegolffiin tarkoitetun kirjanpitosovelluksen.",
+          "Javasta minulla on perusteet. Ohjelmointikurssilla olen kehittänyt frisbeegolffiin tarkoitetun kirjanpitosovelluksen. Javasta olen aloittanut Udemyn-verkkokurssin taitojen syventämistä varten.",
       },
       {
         logo: "mdi-language-csharp",
