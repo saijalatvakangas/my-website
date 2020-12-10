@@ -50,7 +50,7 @@ export default {
   data: () => ({
     cardTitle: json.title,
     information: json.information,
-    tryOut: json.try,
+    tryOut: json.tryOut,
     sourceCode: json.sourceCode,
     projects: json.projects
   }),
