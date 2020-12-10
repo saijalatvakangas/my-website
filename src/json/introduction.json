@@ -1,0 +1,42 @@
+{
+  "title": "Esittely",
+  "subtitle": "Yhteystiedot",
+  "introduction": {
+    "title": "Nimeni on Saija",
+    "subtitle": "<Opiskelen tietotekniikkaa ja olen gradua vaille valmis maisteri Jyväskylän yliopistosta. />"
+  },
+  "abilities": [
+    {
+      "title": "Osaaminen",
+      "icon": "fas fa-laptop-code",
+      "color": "blue",
+      "description":
+        "Vahvin osa-alueeni on front end, mutta tavoitteena on hioa itseäni full stack -kehittäjäksi."
+    },
+    {
+      "title": "Vahvuuteni",
+      "icon": "fas fa-award",
+      "color": "yellow",
+      "description":
+        "Olen suhteellisen tuore koodari, joka ei ole vakiintunut liikaa yhteen ohjelmointikieleen, joten olen varsin muuntautumiskykyinen."
+    }
+  ],
+  "contacts": [
+    {
+      "title": "saijalatvakangas@gmail.com",
+      "icon": "mdi-email"
+    },
+    {
+      "title": "+358 40 8377173",
+      "icon": "mdi-cellphone"
+    },
+    {
+      "title": "Jyväskylä",
+      "icon": "mdi-map-marker"
+    }
+  ],
+  "information": {
+    "name": "Saija Latvakangas",
+    "title": "Tietotekniikan maisteriopiskelija"
+  }
+}

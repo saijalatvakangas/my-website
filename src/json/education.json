@@ -1,0 +1,32 @@
+{
+  "title": "Koulutus",
+  "educations": [
+    {
+      "time": "2018 –",
+      "headline": "Filosofian maisteri",
+      "subtitle": "Jyväskylän yliopisto",
+      "description":
+        "Pääaineeni on tietotekniikka ja suuntaavana moduulina opiskelen ohjelmisto- ja tietoliikennetekniikkaa."
+    },
+    {
+      "time": "2019 – 2019",
+      "headline": "Vaihto-oppilas",
+      "subtitle": "Pusan National University",
+      "description":
+        "Opiskelin neljä kuukautta Etelä-Koreassa C-ohjelmointikieltä ja kyberturvallisuutta yleisellä tasolla."
+    },
+    {
+      "time": "2013 – 2017",
+      "headline": "Insinööri",
+      "subtitle": "Jyväskylän ammattikorkeakoulu",
+      "description":
+        "Suoritin logistiikan koulutusohjelman, jossa pääaineenani oli materiaalinkäsittely ja varastointi. Opinnäytetyön aihe: Paloturvallisuus sisälogistiikan suunnittelussa."
+    },
+    {
+      "time": "2008 – 2011",
+      "headline": "Ylioppilas",
+      "subtitle": "Nurmon lukio",
+      "description": ""
+    }
+  ]
+}

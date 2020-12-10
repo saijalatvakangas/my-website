@@ -1,0 +1,25 @@
+{
+  "title": "Saija Latvakangas",
+  "buttons": [
+    {
+      "target": "#introduction",
+      "name": "Esittely"
+    },
+    {
+      "target": "#skills",
+      "name": "Osaaminen"
+    },
+    {
+      "target": "#education",
+      "name": "Koulutus"
+    },
+    {
+      "target": "#workExperience",
+      "name": "Työkokemus"
+    },
+    {
+      "target": "#projects",
+      "name": "Projektit"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Työkokemus",
+  "info": "Työkokemusta löytyy reilu neljä vuotta, josta ohjelmistokehityksen osuus on melkein vuosi. Alle on listattu neljä viimeisintä työtäni. Lisää tietoja aiemmista töistä voi kysellä joko sähköpostitse tai puhelimitse.",
+  "experience": [
+    {
+      "time": "02/2020 – 06/2020",
+      "position": "Projektipäällikkö",
+      "employer": "Thinking Lifeline Oy",
+      "description":
+        "Osallistuin sovelluskehitysprojektiin, jossa työskentelin osana 5 hlön projektiryhmää. Vastuullani oli projektin suunnittelu ja läpivienti sekä projektin sisäinen ja ulkoinen viestintä. Vastasin myös ohjelmiston testaamisesta."
+    },
+    {
+      "time": "11/2018 – 05/2019",
+      "position": "Tutkimusavustaja",
+      "employer": "Jyväskylän yliopisto",
+      "description":
+        "Työskentelin IoT:sta uutta liiketoimintaa -hankkeessa osana 5-8 hlön projektiryhmää. Osallistuin IoT-laitteiden kokoamiseen ja asentamiseen. Kehitettävään sovellukseen opiskelin Reactia. Lisäksi osallistuin palvelimen konfigurointiin."
+    },
+    {
+      "time": "Kesät 2015 – 2017",
+      "position": "Logistiikkatyöntekijä",
+      "employer": "A-Logistiikka Oy",
+      "description":
+        "Keräsin automaattivarastosta tulevia asiakastilauksia omalla työpisteellä. Opettelin varastohallintajärjestelmän virheiden korjaamisen asetuksista, mikä nopeutti työskentelyä ja pystyin auttamaan muita samojen ongelmien kanssa."
+    },
+    {
+      "time": "Kesät 2011 ja 2014",
+      "position": "Pakkaaja",
+      "employer": "Atria-Chick Oy",
+      "description":
+        "Toimin kanatuotteiden pakkaajana, mutta tein myös konemiesten töitä. Työpisteillä yritin ottaa päävastuun ja hoitaa teknisiä ongelmatilanteita."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Projektit",
+  "information": "Tietoja",
+  "tryOut": "Kokeile",
+  "sourceCode": "Lähdekoodi",
+  "projects": [
+    {
+      "image": "notepad.png",
+      "headline": "Notepad - tehtävälista",
+      "description":
+        "Yksinkertainen muistio, jolla seurataan tehtävien suorittamista. Sovelluksen pohjana on käytetty freeCodeCamp.org-yhteisön React JS -videotutoriaalia. Sovelluksen avaaminen kestää kauan Herokun ilmaisversion takia.",
+      "keywords": ["React", "Javascript", "Yksilötyö"],
+      "website": "https://latvakangas-todolist.herokuapp.com/",
+      "code": "https://github.com/saijalatvakangas/notepad",
+      "ready": true,
+      "playable" : true,
+      "restricted": false
+    },
+    {
+      "image": "meme-generator.png",
+      "headline": "Meme Generator",
+      "description":
+        "Meemikuvien tekemiseen kehitetty nettisivu. Tavoitteena oli kertailla omia React-taitoja freeCodeCamp.org-yhteisön React JS -videotutoriaalin avulla. Sovelluksen avaaminen kestää kauan Herokun ilmaisversion takia.",
+      "keywords": ["React", "Javascript", "Yksilötyö"],
+      "website": "https://make-memes.herokuapp.com/",
+      "code": "https://github.com/saijalatvakangas/meme-generator",
+      "ready": true,
+      "playable" : true,
+      "restricted": false
+    },
+    {
+      "image": "my-website.png",
+      "headline": "Omat kotisivut",
+      "description":
+        "Omat kotisivut on tehty omien taitojen ja projektien visuaalista esittämistä varten. Erityisesti tavoitteena oli luoda sivut, joita voi hyödyntää työnhaussa.",
+      "keywords": ["Vue.js", "Vuetify", "Yksilötyö"],
+      "website": "#startView",
+      "code": "https://github.com/saijalatvakangas/my-website",
+      "ready": true,
+      "playable" : true,
+      "restricted": false
+    },
+    {
+      "image": "protomyy.png",
+      "headline": "Protomyy-projekti (NDA)",
+      "description":
+        "Yritykselle tehty projekti, jossa toteutettiin hoivarobottiin prototyypit puheentunnistuksesta ja Android-tabletin kautta käytettävästä vanhuksen käyttöliittymästä. Julkiseksi sovitut lisätiedot löytyvät tietoja-painikkeen takaa.",
+      "keywords": ["React Native", "C++", "Python", "Ryhmätyö"],
+      "website": "http://www.mit.jyu.fi/palvelut/sovellusprojektit/protomyy/",
+      "code": "",
+      "ready": true,
+      "playable" : true,
+      "restricted": true
+    },
+    {
+      "image": "math-me-up.png",
+      "headline": "Math Me Up!",
+      "description":
+        "Laskutaitoon pohjautuva peli, jossa tulee vastata kysymyksiin oikein mahdollisimman nopeasti. Tavoitteena oli tutustua Laraveliin ja backendiin syvemmin. ",
+      "keywords": ["Laravel", "Vue.js", "PHPUnit", "Parityö"],
+      "website": "",
+      "code": "https://github.com/saijalatvakangas/mathMeUp",
+      "ready": true,
+      "playable" : false,
+      "restricted": false
+    },
+    {
+      "image": "sns-replica.png",
+      "headline": "SNSReplica",
+      "description":
+        "Sosiaalisen median jäljitelmä, johon on käytetty pohjana Youtube-tutoriaalia. Tavoitteena on ollut tutustua Laraveliin.",
+      "keywords": ["Laravel", "Yksilötyö"],
+      "website": "",
+      "code": "https://github.com/saijalatvakangas/snsReplica",
+      "ready": false,
+      "playable" : false,
+      "restricted": false
+    }
+  ]
+}
