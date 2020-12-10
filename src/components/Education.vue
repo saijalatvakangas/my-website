@@ -1,6 +1,6 @@
 <template>
   <v-card class="mt-16 py-16 px-4">
-    <v-card-title class="display-1 d-flex justify-center">Koulutus</v-card-title>
+    <v-card-title class="display-1 d-flex justify-center">{{ cardTitle }}</v-card-title>
     <v-timeline :dense="$vuetify.breakpoint.smAndDown">
       <v-timeline-item
         v-for="(education, i) in educations"
@@ -33,37 +33,12 @@
 </template>
 
 <script>
+import json from '../json/education.json'
+
 export default {
   data: () => ({
-    educations: [
-      {
-        time: "2018 –",
-        headline: "Filosofian maisteri",
-        subtitle: "Jyväskylän yliopisto",
-        description:
-          "Pääaineeni on tietotekniikka ja suuntaavana moduulina opiskelen ohjelmisto- ja tietoliikennetekniikkaa.",
-      },
-      {
-        time: "2019 – 2019",
-        headline: "Vaihto-oppilas",
-        subtitle: "Pusan National University",
-        description:
-          "Opiskelin neljä kuukautta Etelä-Koreassa C-ohjelmointikieltä ja kyberturvallisuutta yleisellä tasolla.",
-      },
-      {
-        time: "2013 – 2017",
-        headline: "Insinööri",
-        subtitle: "Jyväskylän ammattikorkeakoulu",
-        description:
-          "Suoritin logistiikan koulutusohjelman, jossa pääaineenani oli materiaalinkäsittely ja varastointi. Opinnäytetyön aihe: Paloturvallisuus sisälogistiikan suunnittelussa.",
-      },
-      {
-        time: "2008 – 2011",
-        headline: "Ylioppilas",
-        subtitle: "Nurmon lukio",
-        description: "",
-      },
-    ],
+    cardTitle: json.title,
+    educations: json.educations
   }),
 };
 </script>

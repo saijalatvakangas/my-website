@@ -1,6 +1,6 @@
 <template>
   <v-card class="mt-16 py-16 px-2" dark>
-    <v-card-title class="display-1 justify-center">Esittely</v-card-title>
+    <v-card-title class="display-1 justify-center">{{ cardTitle }}</v-card-title>
     <v-spacer />
     <v-row justify="center">
       <!-- column 1 -->
@@ -27,7 +27,7 @@
           <v-card-subtitle class="body-2">{{ information.title }}</v-card-subtitle>
           <v-divider class="mx-2" />
           <!-- contact info -->
-          <v-card-title class="headline">Yhteystiedot</v-card-title>
+          <v-card-title class="headline">{{ contactInfo }}</v-card-title>
           <v-list>
             <v-list-item v-for="(contact, i) in contacts" :key="i" class>
               <v-list-item-icon>
@@ -43,47 +43,16 @@
 </template>
 
 <script>
+import json from '../json/introduction.json'
+
 export default {
   data: () => ({
-    introduction: {
-      title: "Nimeni on Saija",
-      subtitle:
-        "<Opiskelen tietotekniikkaa ja olen gradua vaille valmis maisteri Jyväskylän yliopistosta. />",
-    },
-    abilities: [
-      {
-        title: "Osaaminen",
-        icon: "fas fa-laptop-code",
-        color: "blue",
-        description:
-          "Vahvin osa-alueeni on front end, mutta tavoitteena on hioa itseäni full stack -kehittäjäksi.",
-      },
-      {
-        title: "Vahvuuteni",
-        icon: "fas fa-award",
-        color: "yellow",
-        description:
-          "Olen suhteellisen tuore koodari, joka ei ole vakiintunut liikaa yhteen ohjelmointikieleen, joten olen varsin muuntautumiskykyinen.",
-      },
-    ],
-    contacts: [
-      {
-        title: "saijalatvakangas@gmail.com",
-        icon: "mdi-email",
-      },
-      {
-        title: "+358 40 8377173",
-        icon: "mdi-cellphone",
-      },
-      {
-        title: "Jyväskylä",
-        icon: "mdi-map-marker",
-      },
-    ],
-    information: {
-      name: "Saija Latvakangas",
-      title: "Tietotekniikan maisteriopiskelija",
-    },
+    cardTitle: json.title,
+    contactInfo: json.subtitle,
+    introduction: json.introduction,
+    abilities: json.abilities,
+    contacts: json.contacts,
+    information: json.information
   }),
 };
 </script>

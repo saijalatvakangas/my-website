@@ -7,7 +7,7 @@
       <v-img src="../assets/logo-dark.png" max-height="100" max-width="100" />
     </div>
     <v-card-title class="text-h4 text-sm-h2 text-break justify-center text-center">
-      Saija Latvakangas
+      {{ cardTitle }}
     </v-card-title>
     <v-card-actions class="centering flex-wrap">
       <v-btn
@@ -21,30 +21,12 @@
 </template>
 
 <script>
+import json from '../json/welcome.json'
+
 export default {
   data: () => ({
-    buttons: [
-      {
-        target: "#introduction",
-        name: "Esittely",
-      },
-      {
-        target: "#skills",
-        name: "Osaaminen",
-      },
-      {
-        target: "#education",
-        name: "Koulutus",
-      },
-      {
-        target: "#workExperience",
-        name: "Työkokemus",
-      },
-      {
-        target: "#projects",
-        name: "Projektit",
-      },
-    ],
+    cardTitle: json.title,
+    buttons: json.buttons
   }),
 };
 </script>

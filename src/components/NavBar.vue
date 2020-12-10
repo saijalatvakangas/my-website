@@ -20,21 +20,12 @@
 </template>
 
 <script>
+import json from '../json/navbar.json'
+
 export default {
   data: () => ({
     collapseOnScroll: true,
-    socialMedias: [
-      {
-        icon: "mdi-linkedin",
-        url: "https://www.linkedin.com/in/saija-latvakangas-219b931b4/",
-        title: "LinkedIn",
-      },
-      {
-        icon: "mdi-github",
-        url: "https://github.com/saijalatvakangas/",
-        title: "GitHub",
-      },
-    ],
+    socialMedias: json.socialMedias
   }),
 };
 </script>
